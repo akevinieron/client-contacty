@@ -1,0 +1,92 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoDestroy": false,
+        "autoSync": true,
+        "designer|userClassName": "ContactStore",
+        "model": "ContactModel",
+        "storeId": "ContactStore"
+    },
+    "configAlternates": {
+        "autoDestroy": "boolean",
+        "autoSync": "boolean",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
+    "name": "MyStore",
+    "designerId": "b092f1bc-79c8-404a-af5d-eda0dd84d687",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Rest",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": null,
+                "designer|displayName": "ContactProxy",
+                "format": "json",
+                "url": "http://contacty.dev/contact/",
+                "useDefaultXhrHeader": false
+            },
+            "configAlternates": {
+                "url": "string",
+                "designer|createAlias": "string",
+                "designer|displayName": "string",
+                "format": "string",
+                "useDefaultXhrHeader": "boolean"
+            },
+            "name": "MyRestProxy2",
+            "designerId": "10ea721b-23c7-464e-a066-caffbbd7d69b",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "keepRawData": true,
+                        "rootProperty": "data"
+                    },
+                    "configAlternates": {
+                        "rootProperty": "string",
+                        "keepRawData": "boolean"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "86667337-808d-4bc1-a7a7-34540807ad7a"
+                },
+                {
+                    "type": "Ext.data.writer.Json",
+                    "reference": {
+                        "name": "writer",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "encode": true,
+                        "rootProperty": "data",
+                        "writeAllFields": true,
+                        "writeRecordId": false
+                    },
+                    "configAlternates": {
+                        "encode": "boolean",
+                        "rootProperty": "string",
+                        "writeAllFields": "boolean",
+                        "writeRecordId": "boolean"
+                    },
+                    "name": "MyJsonWriter",
+                    "designerId": "00bcf849-fcf1-42e3-88b9-5259918afd00"
+                }
+            ]
+        }
+    ]
+}

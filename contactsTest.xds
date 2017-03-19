@@ -1,0 +1,65 @@
+{
+    "name": "contactsTest",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.2.2.36",
+            "frameworkVersion": "6.2.1.167"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:64964/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app",
+            "buildPlatform": false
+        },
+        "installStatus": "Not Installed"
+    },
+    "xdsVersion": "4.1.2",
+    "xdsBuild": 188,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext62",
+    "viewOrderMap": {
+        "view": [
+            "f5bfa9da-f835-452d-9d2d-f6ec94952af4",
+            "745234b8-20cb-46d6-9bcd-0e1649fb2e69",
+            "2ca1646c-ee32-4e26-8739-b62191f9ed4c",
+            "cbccc8f1-3da7-4376-bdf2-37fddb7276e7",
+            "c3366625-65fb-4b49-8b70-ccfbdb1b187e",
+            "e0aaca6f-63c4-4aa3-9039-f9a36796f42f"
+        ],
+        "store": [
+            "b092f1bc-79c8-404a-af5d-eda0dd84d687"
+        ],
+        "controller": [
+            "ffb289a1-0379-4f8e-94ef-740ea890c9c6"
+        ],
+        "model": [
+            "e8025f9f-0c42-4d3a-947b-8e7c3af7a92d"
+        ],
+        "resource": [
+            "40fabd2b-8a90-4797-b146-468d1593f5a8",
+            "2fab278c-51c8-4f10-95aa-01cfde7dc1a4"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

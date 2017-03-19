@@ -1,0 +1,43 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "myviewport",
+        "designer|userClassName": "MyViewport",
+        "height": 250,
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "width": "auto"
+    },
+    "name": "MyViewport",
+    "designerId": "cbccc8f1-3da7-4376-bdf2-37fddb7276e7",
+    "viewControllerInstanceId": "e0aaca6f-63c4-4aa3-9039-f9a36796f42f",
+    "viewModelInstanceId": "c3366625-65fb-4b49-8b70-ccfbdb1b187e",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": "100%"
+            },
+            "configAlternates": {
+                "width": "auto"
+            },
+            "name": "contactgridpanel",
+            "designerId": "11cf90d5-39b7-49ee-93e3-44af1c28f6cb",
+            "masterInstanceId": "f5bfa9da-f835-452d-9d2d-f6ec94952af4"
+        }
+    ]
+}

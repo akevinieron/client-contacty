@@ -1,0 +1,99 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contactmodel",
+        "designer|userClassName": "ContactModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "ffb289a1-0379-4f8e-94ef-740ea890c9c6",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#mygridpanel",
+                "designer|params": [
+                    "rowmodel",
+                    "record",
+                    "index",
+                    "eOpts"
+                ],
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onGridpanelSelect",
+                "name": "select"
+            },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|params": "typedarray",
+                "designer|targetType": "view",
+                "fn": "string",
+                "name": "string"
+            },
+            "name": "onGridpanelSelect",
+            "designerId": "5642d294-a87c-4593-99cf-0b25f7d2feec"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#mygridpanel",
+                "designer|params": [
+                    "rowmodel",
+                    "record",
+                    "index",
+                    "eOpts"
+                ],
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onMygridpanelDeselect",
+                "name": "deselect"
+            },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|params": "typedarray",
+                "designer|targetType": "view",
+                "fn": "string",
+                "name": "string"
+            },
+            "name": "onMygridpanelDeselect",
+            "designerId": "538066b7-d967-45ca-a1f7-4b551279aeca"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#mygridpanel",
+                "designer|targetType": "Ext.grid.Panel",
+                "fn": "onMygridpanelEdit",
+                "name": "edit"
+            },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "name": "string"
+            },
+            "name": "onMygridpanelEdit",
+            "designerId": "32cc4cdb-09f2-46c0-8a82-83f056445993"
+        }
+    ]
+}
